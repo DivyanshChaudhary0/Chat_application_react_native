@@ -1,10 +1,11 @@
-import { Text, View } from "react-native";
+import ScreenWrapper from "@/components/ScreenWrapper";
+import { Text } from "react-native";
 
 const Login = () => {
     return (
-        <View>
-            <Text>Welcome Page</Text>
-        </View>
+        <ScreenWrapper>
+            <Text style={{color: "white"}}>Login Page</Text>
+        </ScreenWrapper>
     )
 }
 
